@@ -1,0 +1,13 @@
+section {
+    background-color: red;
+    color: silver;
+    text-align: center;
+  }
+  ul {
+      list-style-type: none;
+  }
+
+  a {
+      color: firebrick;
+      text-decoration: none;
+  }
