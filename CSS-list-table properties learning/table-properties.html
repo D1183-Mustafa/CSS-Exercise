@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, td,th {
+            border: 2px solid blue;
+
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        table {
+            width: 500px;
+        }
+
+        th {
+            height: 200px;
+        }
+
+        td {
+            text-align: center;
+        }
+        th {
+            vertical-align: top;
+        }
+
+        tr:hover {
+            background-color: red;
+        }
+
+        td th {  /* kenarlık ile tablodaki içerik arasındaki boşluğu deneklemek için kullanılır */
+            padding: 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: seagreen;
+            color: white;
+        }
+
+        tr:nth-child(even)  {background-color: yellow;}
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="6">Time Table</th>
+        </tr>
+        <tr>
+            <td rowspan="6">Hours</td>
+            <td>Mon</td>
+            <td>Tue</td>
+            <td>Wed</td>
+            <td>Thu</td>
+            <td>Fri</td>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Arts</td>
+        </tr>
+        <tr>
+            <td>Social</td>
+            <td>History</td>
+            <td>English</td>
+            <td>Social</td>
+            <td>Sports</td>
+        </tr>
+        <tr>
+            <td align="center" colspan="5">Launch</td>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Arts</td>
+        </tr>
+        <tr>
+            <td>Social</td>
+            <td>History</td>
+            <td>English</td>
+            <td>Social</td>
+            <td>Sports</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
