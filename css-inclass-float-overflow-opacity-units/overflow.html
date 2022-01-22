@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Overflow</title>
+    <style>
+        .box {
+            border: 3px solid red;
+            width: 300px;
+            height: 70px;
+            margin-bottom: 50px;
+        }
+
+        #item1 {
+            overflow: visible;   
+        }
+        #item2 {
+            overflow: hidden;   
+        }
+        #item3 {
+            overflow: scroll;   
+        }
+        #item4 {
+            overflow: auto;   
+        }
+        #item5 {
+            overflow-x: scroll;
+            overflow-y: scroll;   
+        }
+
+        #item_paragraf {
+            width: 1000px;
+        }
+
+
+    </style>
+  </head>
+  <body>
+    <div>
+      <p class="box" id="item1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia incidunt
+        aut harum reiciendis officia, laborum, laudantium cumque maxime
+        repellendus dolores rem accusantium similique, ipsum doloribus quasi nam
+        voluptatem nulla exercitationem?
+      </p>
+    </div>
+    <div>
+      <p class="box" id="item2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia incidunt
+        aut harum reiciendis officia, laborum, laudantium cumque maxime
+        repellendus dolores rem accusantium similique, ipsum doloribus quasi nam
+        voluptatem nulla exercitationem?
+      </p>
+    </div>
+    <div>
+      <p class="box" id="item3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia incidunt
+        aut harum reiciendis officia, laborum, laudantium cumque maxime
+        repellendus dolores rem accusantium similique, ipsum doloribus quasi nam
+        voluptatem nulla exercitationem?
+      </p>
+    </div>
+    <div>
+      <p class="box" id="item4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia incidunt
+        aut harum reiciendis officia, laborum, laudantium cumque maxime
+        repellendus dolores rem accusantium similique, ipsum doloribus quasi nam
+        voluptatem nulla exercitationem?
+      </p>
+    </div>
+    <div class="box" id="item5">
+      <p id="item_paragraf">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia incidunt
+        aut harum reiciendis officia, laborum, laudantium cumque maxime
+        repellendus dolores rem accusantium similique, ipsum doloribus quasi nam
+        voluptatem nulla exercitationem?
+      </p>
+    </div>
+  </body>
+</html>
